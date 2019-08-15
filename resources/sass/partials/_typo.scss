@@ -1,0 +1,145 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-transform: none;
+  //color: rgba(41, 41, 41, .66);
+   color: #222;
+}
+
+a {
+  color: #787878;
+  &:hover {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 42px;
+  letter-spacing: 0.5px;
+  margin: 25px 0;
+  line-height: 46px;
+  text-transform: capitalize;
+  //color: rgba(94, 94, 94, .93);
+    color: #222;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  line-height: 34px;
+  margin: 0;
+  padding: 10px 0;
+ // color: rgba(41, 41, 41, .66);
+    color: #222;
+  span {
+    text-transform: none;
+  }
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  margin: 20px 0;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  line-height: 32px;
+  //color: rgba(41, 41, 41, .66);
+    color: #222;
+}
+
+p {
+    margin: 10px 0;
+    letter-spacing: 0.5px;
+   font-size: 14px;
+      line-height: 20px;
+    font-weight: 400;
+}
+
+section {
+  padding: 100px 60px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  li {
+    margin: 5px 0;
+    list-style-type: none;
+    > p {
+      &:before {
+        padding-right: 10px;
+        content: "\2022";
+        display: inline-block;
+        margin-left: -40px;
+        min-width: 40px;
+        text-align: right;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+ol {
+  li > p {
+    margin: 5px 0;
+  }
+}
+
+.smallh2 {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: .11em;
+  line-height: 1.38em;
+  text-transform: none;
+}
+
+.gbolder {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.form-group{
+  label{
+    font-size: 13px;
+  }
+}
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+  section {
+    padding: 60px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 50px 0;
+  }
+  h1 {
+    font-size: 32px;
+    letter-spacing: 0px;
+  }
+  h2 {
+    font-size: 26px;
+    letter-spacing: 0px;
+  }
+  .section2 {
+    padding: 20px 0;
+  }
+
+}

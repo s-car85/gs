@@ -1,0 +1,1 @@
+<a class="btn btn-sm btn-warning" href="{!!  route('products.edit', $products->id) !!}"><i class="far fa-edit"></i></a>

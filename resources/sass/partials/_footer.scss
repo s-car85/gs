@@ -1,0 +1,131 @@
+footer{
+  background-color: #dedede;
+}
+.footer-inner{
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 54px 54px 10px 54px;
+  background-color: #dedede;
+  .form-group{
+    margin-bottom: 12px;
+  }
+  p{
+    letter-spacing: 0.1em;
+  }
+  .fr{
+    text-align: right;
+  }
+  .footer-links{
+    float: left;
+    padding: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+    text-transform: none;
+    .ftext{
+      margin: 0;
+      line-height: 2em;
+    }
+    .flink{
+      padding-bottom: .618em;
+      display: block;
+      max-width: 16em;
+    }
+    .footer-heading{
+      white-space: pre;
+      margin: 0;
+      width: 100%;
+      padding-bottom: 1em;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      letter-spacing: 0em;
+      line-height: 1em;
+      text-transform: none;
+      color: #222;
+    }
+  }
+  .footer-register{
+    padding: 20px;
+    h3{
+      margin: 0 0 30px 0;
+      padding: 0;
+      color: #222;
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1.2em;
+      font-style: normal;
+      text-align: inherit;
+      text-transform: lowercase;
+    }
+    .form-control{
+      min-width: 250px;
+    }
+    .fi{
+      height: auto;
+      -webkit-writing-mode: horizontal-tb !important;
+      letter-spacing: normal;
+      word-spacing: normal;
+      text-transform: none;
+      text-indent: 0px;
+      text-shadow: none;
+      display: inline-block;
+      text-align: start;
+      border: 1px solid rgba(0,0,0,.12);
+      width: 100%;
+      border-radius: 0;
+      padding: 15px;
+      background: #fff;
+      font-family: inherit;
+      font-size: 15px;
+      line-height: normal;
+      outline: none;
+      -webkit-writing-mode: horizontal-tb !important;
+      -webkit-transition: background .3s ease-out,border .3s ease-out;
+      -moz-transition: background .3s ease-out,border .3s ease-out;
+      -ms-transition: background .3s ease-out,border .3s ease-out;
+      -o-transition: background .3s ease-out,border .3s ease-out;
+      transition: background .3s ease-out,border .3s ease-out;
+      &:focus{
+        box-shadow: none;
+      }
+    }
+
+  }
+  .mla{
+    margin-left: auto;
+  }
+  .footer-cards{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+      float: left;
+      padding-right: 10px;
+    }
+    img{
+      width: 50px;
+    }
+  }
+  .payment-card {
+    padding: 0;
+    margin: 50px 0 5px;
+    background: 0 0;
+    text-align: center;
+    .item {
+      padding: 10px;
+      display: inline-block;
+      img{
+        height: 30px;
+      }
+    }
+  }
+  .copy{
+    margin: 0;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

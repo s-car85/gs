@@ -1,0 +1,125 @@
+.btn-custom{
+  position: relative;
+  background: transparent;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: normal;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 1em 2.5em;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  border-radius: 0;
+  border: 1px solid #666 !important;
+  box-shadow: inset 0px 0px 0px 1px #666;
+  color: #666;
+  &:hover,&:focus, &:active{
+    background-color: #666;
+    color: #fff;
+    outline: none;
+  }
+}
+
+.main-btn{
+  position: relative;
+  background: transparent;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .1em;
+  padding: 1em 2.5em;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  border-radius: 0;
+  border: 1px solid #222 !important;
+  box-shadow: inset 0px 0px 0px 1px #222;
+  color: #222;
+  &:hover,&:focus, &:active{
+    background-color: #222;
+    color: #fff;
+    outline: none;
+  }
+}
+
+.main-btn2{
+  position: relative;
+  //background: transparent;
+      background: #00000030;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .1em;
+  padding: 1em 2.5em;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  border-radius: 0;
+  border: 1px solid #fff !important;
+  box-shadow: inset 0px 0px 0px 1px #fff;
+  color: #fff;
+  &:hover,&:focus, &:active{
+    background-color: #fff;
+    color: #222;
+    outline: none;
+  }
+}
+
+.main-btn-block{
+  width: 100%;
+  position: relative;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  height: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: .1em;
+  padding: 1em 2.5em;
+  //transition: 0.1s background-color linear, 0.1s color linear;
+  border-radius: 0;
+  background: #222;
+  border: 1px solid #222 !important;
+  box-shadow: inset 0px 0px 0px 1px #222;
+  color: #fff;
+  &:hover,&:focus, &:active{
+    color: #fff;
+    outline: none;
+  }
+}

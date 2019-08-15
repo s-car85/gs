@@ -1,0 +1,1 @@
+<button type="submit" class="delete btn btn-danger btn-sm float-lg-right" title="Delete" data-toggle="tooltip" id="{{ $orders->id }}"><i class="fas fa-trash"></i></button>
